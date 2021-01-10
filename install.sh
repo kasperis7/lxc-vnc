@@ -5,7 +5,7 @@ apt update
 # install xvfb and x11vnc
 
 apt install -y xvfb x11vnc
-echo "export DISPLAY=:0" > /etc/profile
+echo "export DISPLAY=:0" >> /etc/profile
 
 # install minimal graphical interface components
 
