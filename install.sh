@@ -9,7 +9,6 @@ echo "export DISPLAY=:0" > /etc/profile
 
 # install minimal graphical interface components
 
-apt install -y openbox obmenu obconf vnc4server xfce4-panel pcmanfm
-ttf-wqy-microhei adwaita-icon-theme lxterminal
+apt install -y openbox obmenu obconf vnc4server xfce4-panel pcmanfm ttf-wqy-microhei adwaita-icon-theme lxterminal gpicview
 
 echo "done"
